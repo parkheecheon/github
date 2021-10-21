@@ -2,7 +2,7 @@ package baseball;
 
 import java.util.*;
 import java.util.stream.Stream;
-
+https://github.com/parkheecheon/github/blob/master/baseball/baseball/baseball/Baseball.java
 public class Baseball {
 	/* 컴퓨터는 임의의 숫자 3자리를 정함.
 	 * 유저는 3자리를 입력하여 컴퓨터가 입력한 숫자와 비교
@@ -28,7 +28,11 @@ public class Baseball {
 		// 유저 3자리 -> integer 배열
 		Scanner scan = new Scanner(System.in);
 		int userNum = scan.nextInt();
-		int[] user = Stream.of(String.valueOf(userNum).split("")).mapToInt(Integer::parseInt).toArray();		
+		int[] user = Stream.of(String.valueOf(userNum).split("")).mapToInt(Integer::parseInt).toArray();	
+		
+		
+		
+		
 		System.out.println(Arrays.toString(user));
 	
 	
